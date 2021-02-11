@@ -1,0 +1,19 @@
+<Device Model="CP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="03" Name="Enclosure 1 Slot 01"/>
+      <Device Model="CLX-1FAN4" DeviceId="04" Name="Enclosure 1 Slot 02"/>
+      <Device Model="HZ-KPCN" DeviceId="05" Name="Keypad 01"/>
+      <Device Model="HZ-KPCN" DeviceId="06" Name="Keypad 02"/>
+      <Device Model="HZ-KPCN" DeviceId="07" Name="Keypad 03"/>
+      <Device Model="HZ-KPCN" DeviceId="08" Name="Keypad 04"/>
+      <Device Model="HZ-KPCN" DeviceId="09" Name="Keypad 05"/>
+      <Device Model="HZ-KPCN" DeviceId="0A" Name="Keypad 01"/>
+      <Device Model="HZ-KPCN" DeviceId="0B" Name="Keypad 02"/>
+      <Device Model="HZ-KPCN" DeviceId="0C" Name="Keypad 03"/>
+      <Device Model="HZ-KPCN" DeviceId="0D" Name="Keypad 04"/>
+      <Device Model="CLX-2DIMFLV8,CLXI-2DIMFLV8" DeviceId="0E" Name="Enclosure A Slot 03">
+         <Network Type="Cresnet"/>
+      </Device>
+   </Network>
+   <Network Type="Ethernet" Id="02"/>
+</Device>

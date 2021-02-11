@@ -1,0 +1,23 @@
+Title: Crestron Lighting Module
+Programmer: Charles Straight
+Company: Done Right
+Date: 01-28-2021
+
+This module was designed to work with Crestron 3Series processors and above to control lights.
+In order for this module to work you need to make sure you program your D3 with the following 
+format:
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////// D3 PROGRAMMING RULES IMPORTANT /////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// AREA names should be prefixed with Area xx. Example Area 01, Area 02, Area 03, etc.
+// ROOM names should be prefixed with Room xx. Example Room 01, Room 02, Room 03, etc.
+// ALL LOADS in each room should be prexifed with Load xx. Example Load 01, Load 02, Load 03, etc.
+// * ALL EXHAUST FAN loads should follow the prefix with Exhaust Fan xx. Example Exhaust Fan 01, Exhaust Fan 02, etc.
+// * ALL CEILING FAN loads should follow the prefix with Ceiling Fan xx. Example Ceiling Fan 01, Ceiling Fan 02, etc.
+// ALL KEYPADS should be prefixed with Keypad xx. Example Keypad 01, Keypad 02, Keypad 03, etc.
+// Create a REMOTE SYSTEM RSD with only the loads and keypads selected for each room
+// * Save the RSD on your local machine in the directory C:\tmp\CrestronLightingRSDs
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
