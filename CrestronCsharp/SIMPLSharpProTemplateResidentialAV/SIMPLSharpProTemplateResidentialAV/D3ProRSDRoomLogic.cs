@@ -8,7 +8,7 @@ namespace SIMPLSharpProTemplate
 {
     public class D3ProRSDRoomLogic
     {
-        private string fileToLoad;
+        //private string fileToLoad;
         
 
 

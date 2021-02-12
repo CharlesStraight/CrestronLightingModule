@@ -93,6 +93,8 @@
     <Compile Include="DmRmc100CSerialPortLogic.cs" />
     <Compile Include="DmTx201CLogic.cs" />
     <Compile Include="EISCLogic.cs" />
+    <Compile Include="ElectricalLoad.cs" />
+    <Compile Include="Keypad.cs" />
     <Compile Include="LightingZone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserInterface.cs" />

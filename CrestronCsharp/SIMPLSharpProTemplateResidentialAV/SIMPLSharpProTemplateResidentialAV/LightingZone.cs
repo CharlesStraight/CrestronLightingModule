@@ -11,15 +11,15 @@ namespace SIMPLSharpProTemplate
         public string name { get; set; }
         public string crosspointSigName { get; set; }
         public ushort area { get; set; }
+        public ushort scenes { get; set; }
         public ushort saveable { get; set; }
         public ushort associatedZoneIndex { get; set; }
         private ushort state = 0;
 
-        //make a class for kps
-        //make a class for loads
         //create class to parse data and create keypad, loads, and zone objects
         //May need to look into delegates to register events between each class
         //All classes will be linked between each other by the associatedZoneIndex
+        //Need to think of how to handles scenes as well.
 
         public LightingZone()
         {

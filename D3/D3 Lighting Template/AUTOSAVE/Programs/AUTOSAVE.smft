@@ -14,6 +14,13 @@
       <Device Model="CLX-2DIMFLV8,CLXI-2DIMFLV8" DeviceId="0E" Name="Enclosure A Slot 03">
          <Network Type="Cresnet"/>
       </Device>
+      <Device Model="C2N-CBD-P" DeviceId="0F" Name="Keypad 06"/>
    </Network>
-   <Network Type="Ethernet" Id="02"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-GWEXER" DeviceId="03" Name="CEN-GWEXER-1 (Shared)">
+         <Network Type="RF">
+            <Device Model="CLW-DIMUEX,CLW-DIMUEX-P" DeviceId="03" Name="Keypad 05"/>
+         </Network>
+      </Device>
+   </Network>
 </Device>
